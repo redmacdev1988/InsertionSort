@@ -20,8 +20,8 @@ There are 2 conditions that the inner index must satisfy:
 2) array[innerIndex-1] > valueToInsert
 
 
-As long as the innerIndex is larger 0, and the previous element is larger than
-the value we're trying to insert, we want move the previous element into the
+As long as the innerIndex is larger 0, and **the previous element is larger than
+the value we're trying to insert**, we want move the previous element into the
 current location at innerIndex.
 
 This is done so that we find a location where the previous element is smaller than
