@@ -6,17 +6,24 @@
 
 var dataArray = [8, 5, 3, 12];
 
+
+function prevElem_GTE_toInsert(currentValue, toInsertValue) {
+  return (currentValue >= toInsertValue);
+}
+
 function findInsertionPoint(array, outerIndex) {
     var valueToInsert = array[outerIndex];
     var innerIndex = outerIndex;
 
     console.log("Find niche to insert: " + valueToInsert);
 
-    while(innerIndex > 0 && (array[innerIndex-1] >= valueToInsert)) {
-        console.log("innerIndex: " + innerIndex);
+
+    while(innerIndex > 0 && prevElem_GTE_toInsert(array[innerIndex-1], valueToInsert)) {
         array[innerIndex] = array[innerIndex-1];
         innerIndex--;
     }
+
+    console.log("niche found at: " + innerIndex + ", for value: " + valueToInsert);
     array[innerIndex] = valueToInsert;
 }
 
