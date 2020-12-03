@@ -1,7 +1,7 @@
 # InsertionSort
 Insertion sort written in JS
 
-http://shanghaiseagull.com/index.php/2017/10/11/insertion-sort/
+http://http://chineseruleof8.com/code/index.php/2017/10/11/insertion-sort/
 
 There's an outer index and inner index.
 
