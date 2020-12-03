@@ -2,6 +2,9 @@
 
 using namespace std;
 
+// feature 1
+// feature 2
+// feature 3
 bool prevElem_GTE_toInsert(int currentValue, int toInsertValue) {
     return (currentValue >= toInsertValue);
 }
