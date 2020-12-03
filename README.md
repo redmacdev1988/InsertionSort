@@ -37,3 +37,5 @@ The **best case** input is an array that is already sorted. During each iteratio
 The simplest **worst case** input is an array sorted in reverse order. In these cases every iteration of the inner loop will scan and shift the entire sorted subsection of the array before inserting the next element. This gives insertion sort a quadratic running time (i.e., O(n2)).
 
 The **average case** is also quadratic, which makes insertion sort impractical for sorting large arrays. However, **insertion sort is one of the fastest algorithms for sorting very small arrays**. 
+
+testing 1 23
