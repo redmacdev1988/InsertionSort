@@ -28,7 +28,7 @@ This is done so that we find a location where the previous element is smaller th
 what we're trying to insert. Thus, this ensures that we sort our values from
 smallest to largest. Kind of like how we do it for a deck of cards.
 
-![](http://shanghaiseagull.com/wp-content/uploads/2017/10/insertionsort_ex_a.jpg)
+![](http://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Insertion-Sort-300x257.jpg)
 
 # Running Time
 
