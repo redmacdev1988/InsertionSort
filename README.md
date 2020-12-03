@@ -38,4 +38,4 @@ The simplest **worst case** input is an array sorted in reverse order. In these 
 
 The **average case** is also quadratic, which makes insertion sort impractical for sorting large arrays. However, **insertion sort is one of the fastest algorithms for sorting very small arrays**. 
 
-testing 1 23
+testing 1 2 3 4 5 6 7
